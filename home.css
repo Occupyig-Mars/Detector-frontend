@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Iceland&display=swap" );
+@import url("https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@700&family=Iceland&display=swap");
+.main{
+	
+    height:100vh;
+    background-position:center;
+    background-clip:url(d);
+    background-size:cover;
+	overflow-x:hidden;
+	position:relative;
+	padding:cover;
+	margin:cover;
+	
+}
+.heading{
+    color: black;
+    font-size:3vw;
+    position:absolute;
+    top:0;
+    
+    margin-left:450px;
+}
+.heading span {
+    color:rgb(5, 233, 55)
+   
+}
+.heading{
+    font-family: 'Grandstander', cursive;
+}
+.heading h1{
+    color:rgb(8, 3, 75);
+    font-family: 'Grandstander', cursive;
+}
+.video{
+    position:absolute;
+}
+.material{
+    
+    font-size:2vw;
+    position:absolute;
+    top:0;
+    margin-left:10px;
+    margin-top:150px;
+}
+.material h2 {
+    
+    margin-top:-5px;
+    color:aqua;
+    font-family: 'Grandstander', cursive;
+    position: center;
+    margin-left:50px;
+    font-size: 7vw;
+}
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.btn{
+    padding:25px 200px;
+	border:0;
+	background:rgb(7, 205, 240);
+	font-weight:bold;
+    cursor:pointer;
+    margin-left:500px;
+    font-size:25px;
+}
+.btnn{
+    padding:25px 200px;
+	border:0;
+	background:rgb(7, 205, 240);
+	font-weight:bold;
+    cursor:pointer;
+    margin-left:500px;
+    font-size:25px;
+    margin-top:50px;
+}
